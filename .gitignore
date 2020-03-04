@@ -284,6 +284,7 @@ dmypy.json
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+.clangd
 
 ### VisualStudio template
 ## Ignore Visual Studio temporary files, build results, and
