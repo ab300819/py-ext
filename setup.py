@@ -1,9 +1,9 @@
 from distutils.core import setup
 from distutils.extension import Extension
 
-hello=Extension(
+hello = Extension(
     'hello',
-    sources=['greet.cpp','greet_ext.cpp'],
+    sources=['greet.cpp', 'greet_ext.cpp'],
     libraries=['boost_python37-mt']
 )
 
